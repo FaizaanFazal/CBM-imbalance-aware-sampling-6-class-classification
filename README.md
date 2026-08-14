@@ -45,13 +45,63 @@ The MRI data are not distributed in this repository. Researchers must independen
 
 ## 4. Evaluation Design
 
-A fixed held-out test cohort of 719 MRI volumes (approximately 20% of the complete dataset) was separated before cross-validation. The remaining 2,873 volumes (approximately 80%) form the development cohort. Stratified five-fold cross-validation within that development cohort gives, in each iteration:
+A fixed held-out test cohort of 719 MRI volumes (approximately 20% of the complete dataset) was separated from the final analyzed cohort of 3,592 volumes before cross-validation. The remaining 2,873 volumes (approximately 80%) form the development cohort. Stratified five-fold cross-validation within that development cohort gives, in each iteration:
 
 - Approximately 64% of the complete cohort for training.
 - Approximately 16% of the complete cohort for validation.
-- The same approximately 20% fixed test cohort, excluded from every training and validation partition.
+- The same 719-volume test cohort (approximately 20%), excluded from model fitting and checkpoint selection.
 
-The split manifests are stored in [`folds/`](folds/). Depending on the fold, the training partition contains 2,298 or 2,299 volumes and the validation partition contains 575 or 574 volumes. The held-out test partition always contains 719 volumes.
+The CSVs in [`folds/`](folds/) are the frozen partitions used in the final experiments, not example or newly generated splits. The Proposed 3D CNN and 3D EfficientNet-B0 baseline were trained and evaluated using the same frozen data partitions stored in `folds/`, ensuring a directly paired same-data comparison. Inspection of the no-sampler notebook also confirms that it reads the corresponding train, validation, and test files from this shared fold root.
+
+The actual directory structure is:
+
+```text
+folds/
+├── fold_1/
+│   ├── train.csv
+│   ├── val.csv
+│   └── test.csv
+├── fold_2/
+│   ├── train.csv
+│   ├── val.csv
+│   └── test.csv
+├── fold_3/
+│   ├── train.csv
+│   ├── val.csv
+│   └── test.csv
+├── fold_4/
+│   ├── train.csv
+│   ├── val.csv
+│   └── test.csv
+└── fold_5/
+    ├── train.csv
+    ├── val.csv
+    └── test.csv
+```
+
+### Frozen-split integrity audit
+
+The committed CSVs were checked without modification. The observed partition and class counts are:
+
+| Fold | Partition | Total | AD | CN | EMCI | LMCI | MCI | SMC |
+|---:|---|---:|---:|---:|---:|---:|---:|---:|
+| 1 | Train | 2,298 | 259 | 596 | 697 | 366 | 293 | 87 |
+| 1 | Validation | 575 | 65 | 149 | 175 | 91 | 73 | 22 |
+| 1 | Test | 719 | 81 | 186 | 219 | 114 | 92 | 27 |
+| 2 | Train | 2,298 | 260 | 596 | 697 | 365 | 293 | 87 |
+| 2 | Validation | 575 | 64 | 149 | 175 | 92 | 73 | 22 |
+| 2 | Test | 719 | 81 | 186 | 219 | 114 | 92 | 27 |
+| 3 | Train | 2,298 | 259 | 596 | 698 | 365 | 293 | 87 |
+| 3 | Validation | 575 | 65 | 149 | 174 | 92 | 73 | 22 |
+| 3 | Test | 719 | 81 | 186 | 219 | 114 | 92 | 27 |
+| 4 | Train | 2,299 | 259 | 596 | 698 | 366 | 292 | 88 |
+| 4 | Validation | 574 | 65 | 149 | 174 | 91 | 74 | 21 |
+| 4 | Test | 719 | 81 | 186 | 219 | 114 | 92 | 27 |
+| 5 | Train | 2,299 | 259 | 596 | 698 | 366 | 293 | 87 |
+| 5 | Validation | 574 | 65 | 149 | 174 | 91 | 73 | 22 |
+| 5 | Test | 719 | 81 | 186 | 219 | 114 | 92 | 27 |
+
+All five test CSVs contain the same 719-ImageID set. Within every fold, the train and validation ImageID sets are disjoint, and neither overlaps the test set. Row counts equal unique-ImageID counts in every CSV.
 
 ![Five-fold evaluation design](notebooks/plots/stratified_5fold_cv_revised.jpg)
 
