@@ -1,0 +1,64 @@
+{
+  "EFFICIENTNET_CONFIG_FROZEN": true,
+  "frozen_utc": "2026-08-12T07:19:26.935271+00:00",
+  "monai_version": "1.5.1",
+  "architecture": "Official MONAI EfficientNetBN efficientnet-b0, spatial_dims=3, in_channels=1, num_classes=6",
+  "parameters": 4696066,
+  "pretrained": false,
+  "seed": 42,
+  "label_mapping": {
+    "AD": 0,
+    "CN": 1,
+    "EMCI": 2,
+    "LMCI": 3,
+    "MCI": 4,
+    "SMC": 5
+  },
+  "optimizer": "AdamW",
+  "initial_lr": 0.0001,
+  "weight_decay": 1e-05,
+  "scheduler": "ReduceLROnPlateau(mode=max, validation Macro F1, factor=1/3, patience=3)",
+  "batch_size": 4,
+  "effective_batch_size": 4,
+  "precision": "BF16",
+  "loss": "plain CrossEntropyLoss; no class weights/focal/label smoothing",
+  "sampler": "natural shuffled RandomSampler; no weighting",
+  "augmentation": false,
+  "preprocessing": "existing bias-corrected MRI; nan_to_num; per-volume min-max; [1,128,128,128]",
+  "max_epochs": 40,
+  "early_stop_patience": 10,
+  "min_delta": 0.0001,
+  "gradient_clip_norm": 1.0,
+  "checkpoint_criterion": "validation Macro F1 only",
+  "fixed_test_membership_sha256": "c58d88969c828ac806a6559798841effce482fd6081b5fa56bce5c91c66fc268",
+  "fixed_test_unique_imageids": 719,
+  "fold_split_hashes": {
+    "1": {
+      "train": "23c2c029b673293bbd313c79eaf220efdd794bf7843118a664f1f8c5bbb038c9",
+      "val": "0b964df6ec6747aa62e6ce2b631c4e439697512f96ba6d1c824bb6e0eadfa5a6"
+    },
+    "2": {
+      "train": "6c97819dbdc369a8c30874fae93348692557f7f6f86cf93afa0579b719a439dd",
+      "val": "907bb3d51aaa666d5597ed94d62fc5202b7dd8abc3dc0ba5c54029ad6f31395a"
+    },
+    "3": {
+      "train": "eb3f3626780cdfa8776c6623decadbb2f5e51eb6a073984c29dba81a2143c829",
+      "val": "9ac0f99685a6febbdc59fc7d6668dec7f37ad01e25c8de9a5ff68c1a95fbfc12"
+    },
+    "4": {
+      "train": "711547f17fa1bf34fd180a9080b1533b311d3a801106b979875c4d9cfd10f652",
+      "val": "11bf0b60f5d3f55a1b47ef635cf1a6b6ab8b59ec9998762fd550be455e612cb5"
+    },
+    "5": {
+      "train": "f67f7575ed2d485c1fd8852105edb34a66acb96bf29edb24bb99da541b38e393",
+      "val": "a8b12cadd249e30916208c98f4f0f6da93d586787ce589988f39671e5c8b5ba0"
+    }
+  },
+  "validated_fold1_checkpoint_sha256": "346037f07d4dd036d0e5f13c05af6cad009d2b845efff1a78ad98ae4ed20c300",
+  "validated_implementation_source": "/media/faizaan/4TB/1_DATA_PROJECTS/Projects/Alheimers 6 class classification CBM/notebooks/Baselines/run_Fold1_DenseNet_EfficientNet_Baselines.py",
+  "validated_implementation_sha256": "cd96467edbf2acfb60a73c42de0bcfb6ad1fc9665a2e3bdfafebade8a80b93d0",
+  "initialization_sha256": "adec778a808e42db36ba24f9a7779b7f89e051b317586f039260c8d53b85acef",
+  "fold1_reused": true,
+  "folds_2_to_5_train_from_scratch": true,
+  "test_labels_paths_images_metrics_accessed_at_config_freeze": false
+}

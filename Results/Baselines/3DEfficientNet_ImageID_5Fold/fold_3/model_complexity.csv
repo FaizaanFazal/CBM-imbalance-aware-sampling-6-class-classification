@@ -1,0 +1,2 @@
+fold,valid,precision_mode,gpu,physical_gpu_uuid,epochs_completed,best_epoch,average_epoch_minutes,total_training_minutes,peak_gpu_memory_gib,parameters,checkpoint_size_mib
+3,True,bf16,NVIDIA GeForce RTX 3090,GPU-db657392-ab6d-94b9-02fd-9db3a5e31c3d,33,23,1.413057420831738,46.710884197553,2.0543508529663086,4696066,18.196325302124023

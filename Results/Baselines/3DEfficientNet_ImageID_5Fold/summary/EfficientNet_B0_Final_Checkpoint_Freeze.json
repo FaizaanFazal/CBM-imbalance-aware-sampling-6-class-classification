@@ -1,0 +1,30 @@
+{
+  "CHECKPOINTS_FROZEN_BEFORE_TEST": true,
+  "freeze_timestamp_utc": "2026-08-12T11:04:43.066317+00:00",
+  "configuration_path": "/media/faizaan/4TB/1_DATA_PROJECTS/Projects/Alheimers 6 class classification CBM/Results/Baselines/EfficientNet_B0_5Fold_Config_Freeze.json",
+  "configuration_sha256": "66943b301ba59038bfb0f60f4d68d809279a30edc1c2d3bc7e1d6ec5a711aadb",
+  "validation_summary_path": "/media/faizaan/4TB/1_DATA_PROJECTS/Projects/Alheimers 6 class classification CBM/Results/Baselines/3DEfficientNet_ImageID_5Fold/summary/EfficientNet_B0_5Fold_Validation_Summary.csv",
+  "validation_summary_sha256": "4b47ea652a52acc26bb1580ea469142d51dcb54af1e4d1c9dcc898b200f328b7",
+  "checkpoints": {
+    "Fold 1": {
+      "path": "/media/faizaan/4TB/1_DATA_PROJECTS/Projects/Alheimers 6 class classification CBM/Results/Baselines/3DEfficientNet_ImageID_5Fold/fold_1/best_model.pt",
+      "sha256": "346037f07d4dd036d0e5f13c05af6cad009d2b845efff1a78ad98ae4ed20c300"
+    },
+    "Fold 2": {
+      "path": "/media/faizaan/4TB/1_DATA_PROJECTS/Projects/Alheimers 6 class classification CBM/Results/Baselines/3DEfficientNet_ImageID_5Fold/fold_2/best_model.pt",
+      "sha256": "8a435d62845b90c51f6bdcca192e60e9d755f835e6e7411ae728aee723dff627"
+    },
+    "Fold 3": {
+      "path": "/media/faizaan/4TB/1_DATA_PROJECTS/Projects/Alheimers 6 class classification CBM/Results/Baselines/3DEfficientNet_ImageID_5Fold/fold_3/best_model.pt",
+      "sha256": "500aeaca995b5fd230f5fe2967ddc128451391591b3d07fac8ea214f6a121591"
+    },
+    "Fold 4": {
+      "path": "/media/faizaan/4TB/1_DATA_PROJECTS/Projects/Alheimers 6 class classification CBM/Results/Baselines/3DEfficientNet_ImageID_5Fold/fold_4/best_model.pt",
+      "sha256": "2d97fa8f76c560f8fa62d48b3e7d1ac3cae01021f8e6c89a2ff7862259ec7425"
+    },
+    "Fold 5": {
+      "path": "/media/faizaan/4TB/1_DATA_PROJECTS/Projects/Alheimers 6 class classification CBM/Results/Baselines/3DEfficientNet_ImageID_5Fold/fold_5/best_model.pt",
+      "sha256": "fdfe06c6f3959d6015a03a4998075d054be96f3c12a8241e797e7a04bb38649d"
+    }
+  }
+}

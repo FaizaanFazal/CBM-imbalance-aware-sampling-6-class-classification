@@ -1,0 +1,38 @@
+{
+  "analysis": "Paired bootstrap comparison of Full Proposed 3D CNN vs No-Sampler ablation",
+  "difference_direction": "Full Proposed - No-Sampler",
+  "fixed_test_size": 719,
+  "checkpoints_per_variant": 5,
+  "n_bootstraps": 5000,
+  "bootstrap_seed": 42,
+  "confidence_interval": "95% percentile bootstrap",
+  "resampling_unit": "fixed-test MRI ImageID",
+  "aggregation": "metric computed separately for each checkpoint, then averaged across five checkpoints",
+  "ensemble_analysis": false,
+  "training_performed": false,
+  "inference_performed": false,
+  "created_utc": "2026-08-14T12:22:38.722707+00:00",
+  "class_mapping": {
+    "AD": 0,
+    "CN": 1,
+    "EMCI": 2,
+    "LMCI": 3,
+    "MCI": 4,
+    "SMC": 5
+  },
+  "manuscript_display_order": [
+    "CN",
+    "SMC",
+    "EMCI",
+    "MCI",
+    "LMCI",
+    "AD"
+  ],
+  "software": {
+    "python": "3.10.19",
+    "numpy": "2.1.2",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.7.2",
+    "scipy": "1.15.3"
+  }
+}

@@ -1,0 +1,3 @@
+split,rows,unique_imageids,csv_sha256,exact_validated_resnet_fold1_assignment,count_AD,count_CN,count_EMCI,count_LMCI,count_MCI,count_SMC
+train,2298,2298,23c2c029b673293bbd313c79eaf220efdd794bf7843118a664f1f8c5bbb038c9,True,259,596,697,366,293,87
+validation,575,575,0b964df6ec6747aa62e6ce2b631c4e439697512f96ba6d1c824bb6e0eadfa5a6,True,65,149,175,91,73,22

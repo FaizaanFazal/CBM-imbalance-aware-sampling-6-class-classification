@@ -1,0 +1,7 @@
+check,observed,expected,passed
+unique fixed-test ImageIDs,719,719,True
+Proposed checkpoint prediction rows,3595,3595,True
+EfficientNet checkpoint prediction rows,3595,3595,True
+true-label agreement,all matched,all matched,True
+finite probabilities,all finite,all finite,True
+probability sums,1.6000000002680537e-07,maximum absolute error <= 2e-6,True

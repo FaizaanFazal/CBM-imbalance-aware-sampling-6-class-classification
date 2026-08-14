@@ -1,0 +1,27 @@
+{
+  "valid": true,
+  "completed_utc": "2026-08-14T10:53:50.980919+00:00",
+  "required_outputs_present": 14,
+  "n_bootstraps": 5000,
+  "unique_imageids": 719,
+  "difference_direction": "Proposed - EfficientNet",
+  "model_training": false,
+  "model_inference": false,
+  "existing_files_modified": false,
+  "output_sha256": {
+    "inputs/input_prediction_integrity.csv": "d1fb261b2887c067e3d75bf7e957d893ff4ecfe457334d9cbf4db48c6206156c",
+    "audit/input_prediction_integrity.json": "bf88260d8cef8429ec0f3a35c90bb89bf7b168b3eb6b7bdcc4d5e539eb903fec",
+    "audit/statistical_analysis_config.json": "64428793cfe83dcc2470f2d60fa2442b9ee76e0f35488bb10bfb606108ebdffb",
+    "audit/primary_numeric_integrity.json": "1ec3d6f1a6ae82b28ceb7ec5dbf11b602a7cb19483b3654eccde68510d267cf1",
+    "bootstrap/proposed_metric_CI.csv": "86a3b2e3fa8eb121e8d629a62016086c0a800b2cbb2f00eaeaaec636cb37ef59",
+    "bootstrap/efficientnet_metric_CI.csv": "d38fdcaada3fdf6ac7ffe0d8d47cf49136f802f59e10e9044fa4506782c1cd5d",
+    "bootstrap/paired_model_difference_CI.csv": "ae5aab2a8b32575b9969eaa514d905a7f8d001604e2cf5db71ecbb261a4cd621",
+    "bootstrap/classwise_F1_CI.csv": "4edd2741f3400ff856d873739698baa5bd8b32fc0bf2e4cab939464a82a5ccdb",
+    "bootstrap/SMC_uncertainty.csv": "08bab24cb002df3dfb8d3874fd1134acdb90f43a618340da121a7513cc6a2506",
+    "tables/checkpoint_mean_SD_summary.csv": "24df551f9fdcb96cc4cc506e427cc970ac2aef0ebee2d9a04c46d7fc54db16a0",
+    "tables/manuscript_statistical_summary.csv": "b857644b2a702e89a73854d5c9f3360707c64fafe14144dc548c9a06e3de99f9",
+    "tables/SMC_statistical_summary.csv": "08bab24cb002df3dfb8d3874fd1134acdb90f43a618340da121a7513cc6a2506",
+    "figures/paired_macro_F1_bootstrap_distribution.png": "ec358454f679558293b52a5990a895912065d6c59416a113fb9c353e0e1dacde",
+    "figures/paired_difference_CI_forest_plot.png": "126be8e6482f886055f081021f6ab9fa994bc90cd3f3160b6b196556897b73d4"
+  }
+}

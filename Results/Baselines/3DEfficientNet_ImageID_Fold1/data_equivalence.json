@@ -1,0 +1,26 @@
+{
+  "dataset": "same 3,592-ImageID universe as validated scratch ResNet baseline",
+  "train_rows": 2298,
+  "validation_rows": 575,
+  "fixed_test_ids": 719,
+  "overlap_counts": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "train_csv_sha256": "23c2c029b673293bbd313c79eaf220efdd794bf7843118a664f1f8c5bbb038c9",
+  "validation_csv_sha256": "0b964df6ec6747aa62e6ce2b631c4e439697512f96ba6d1c824bb6e0eadfa5a6",
+  "test_csv_sha256": "c58d88969c828ac806a6559798841effce482fd6081b5fa56bce5c91c66fc268",
+  "test_membership_ids_opened_for_leakage_audit_only": true,
+  "test_labels_opened": false,
+  "test_paths_opened": false,
+  "test_volumes_opened": false,
+  "test_metrics_calculated": false,
+  "normalization": "np.nan_to_num then per-volume min-max",
+  "tensor_shape": [
+    1,
+    128,
+    128,
+    128
+  ]
+}

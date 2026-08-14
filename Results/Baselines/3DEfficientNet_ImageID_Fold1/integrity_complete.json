@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "official_monai_architecture": true,
+  "scratch_initialization": true,
+  "plain_cross_entropy": true,
+  "natural_sampling": true,
+  "no_augmentation": true,
+  "no_proposed_components": true,
+  "same_fold1_imageids": true,
+  "same_preprocessing": true,
+  "checkpoint_reloaded": true,
+  "checkpoint_macro_f1_reproduced": true,
+  "all_six_classes_predicted": true,
+  "test_inference_performed": false
+}

@@ -1,0 +1,14 @@
+{
+  "fold": 3,
+  "valid": true,
+  "precision_mode": "bf16",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "physical_gpu_uuid": "GPU-db657392-ab6d-94b9-02fd-9db3a5e31c3d",
+  "epochs_completed": 33,
+  "best_epoch": 23,
+  "average_epoch_minutes": 1.413057420831738,
+  "total_training_minutes": 46.710884197553,
+  "peak_gpu_memory_gib": 2.0543508529663086,
+  "parameters": 4696066,
+  "checkpoint_size_mib": 18.196325302124023
+}

@@ -1,0 +1,7 @@
+{
+  "fold": 3,
+  "images": 719,
+  "inference_seconds": 24.011998653411865,
+  "inference_seconds_per_mri": 0.033396381993618725,
+  "peak_gpu_memory_gib": 0.5821957588195801
+}

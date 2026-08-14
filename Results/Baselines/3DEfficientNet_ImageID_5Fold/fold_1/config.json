@@ -1,0 +1,8 @@
+{
+  "fold": 1,
+  "validated_fold1_reused": true,
+  "source": "/media/faizaan/4TB/1_DATA_PROJECTS/Projects/Alheimers 6 class classification CBM/Results/Baselines/3DEfficientNet_ImageID_Fold1",
+  "source_checkpoint_sha256": "346037f07d4dd036d0e5f13c05af6cad009d2b845efff1a78ad98ae4ed20c300",
+  "configuration_sha256": "66943b301ba59038bfb0f60f4d68d809279a30edc1c2d3bc7e1d6ec5a711aadb",
+  "test_inference_performed": false
+}

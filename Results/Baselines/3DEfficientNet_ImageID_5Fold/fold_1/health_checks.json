@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "finite_inputs_logits_losses_gradients": true,
+  "authoritative_checkpoint_predicts_all_six_classes": true,
+  "authoritative_checkpoint_dominant_prediction_fraction": 0.3130434782608696,
+  "events": [
+    {
+      "epoch": 1,
+      "event": "prediction_concentration_above_90_percent",
+      "technically_fatal": false
+    },
+    {
+      "epoch": 2,
+      "event": "prediction_concentration_above_90_percent",
+      "technically_fatal": false
+    }
+  ],
+  "technical_collapse": false
+}

@@ -1,0 +1,7 @@
+model,metric,observed_estimate,CI_low,CI_high,CI_method
+3D EfficientNet-B0,Accuracy,0.9229485396383866,0.9084840055632822,0.9365785813630041,95% paired ImageID-level percentile bootstrap
+3D EfficientNet-B0,Macro Precision,0.9139640223335856,0.8948787653346608,0.9308977812574832,95% paired ImageID-level percentile bootstrap
+3D EfficientNet-B0,Macro Recall,0.8798079678529545,0.8499026143328383,0.9079123734452909,95% paired ImageID-level percentile bootstrap
+3D EfficientNet-B0,Macro F1,0.8928945229181314,0.8663453338620722,0.9144408539598847,95% paired ImageID-level percentile bootstrap
+3D EfficientNet-B0,MCC,0.9017257573342663,0.8834995605549874,0.9188331611567272,95% paired ImageID-level percentile bootstrap
+3D EfficientNet-B0,Macro AUC,0.9746214631450766,0.963167593866614,0.9840473213460535,95% paired ImageID-level percentile bootstrap

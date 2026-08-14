@@ -1,0 +1,2 @@
+model,total_parameters,trainable_parameters,checkpoint_size_mib,peak_gpu_memory_gib,average_epoch_minutes,total_training_minutes,inference_seconds_per_mri
+3D EfficientNet-B0,4696066,4696066,18.196508407592773,2.051647663116455,1.410398151874542,56.51364599863688,0.02988197243731955

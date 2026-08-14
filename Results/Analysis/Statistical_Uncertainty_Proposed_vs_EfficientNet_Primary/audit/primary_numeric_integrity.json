@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "comparison": "old primary checkpoint-mean outputs vs new Proposed-named outputs",
+  "metrics_checked": [
+    "Accuracy",
+    "Macro F1",
+    "MCC",
+    "Macro AUC",
+    "SMC F1",
+    "SMC Recall"
+  ],
+  "maximum_absolute_difference": 0.0,
+  "tolerance": 1e-12
+}

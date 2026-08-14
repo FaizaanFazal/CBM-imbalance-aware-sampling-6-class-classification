@@ -1,0 +1,62 @@
+{
+  "valid": true,
+  "test_csv_sha256": "c58d88969c828ac806a6559798841effce482fd6081b5fa56bce5c91c66fc268",
+  "proposed_notebook_sha256": "b6070971b18cb9f9f2d44821b406b1d755ddd59562af79cfe95be4ebafb815a8",
+  "proposed_input_sha256": {
+    "fold_1": "1e3f189c92c9b0d9cb71a063984299268a03765ef8c4bb9202ece7b5e5f8bf0b",
+    "fold_2": "36027ad2139263e3b8fdd12e41c33ca6c4ece59118290faf27822fa3abed6c48",
+    "fold_3": "630f50950bab06f18f685e75ee5cea4dabc510589d2dd7d50f6bd42f3f28c843",
+    "fold_4": "449382bf7d5081ddeec9dfb98667f935e87f8791042ffb40a64a4ad742d75571",
+    "fold_5": "942166379fe30225d706fd3f3ce9216b776f454cd833775d9cebd4dcb51123e5"
+  },
+  "efficientnet_input_sha256": "ff6a5f839c826f5ac201faaeccda7b983da86e8f872b212c0dd077622cbb762f",
+  "unique_imageids": 719,
+  "checkpoint_predictions_per_imageid": 5,
+  "rows_per_model_family": 3595,
+  "label_mapping": {
+    "AD": 0,
+    "CN": 1,
+    "EMCI": 2,
+    "LMCI": 3,
+    "MCI": 4,
+    "SMC": 5
+  },
+  "checks": [
+    {
+      "check": "unique fixed-test ImageIDs",
+      "observed": 719,
+      "expected": 719,
+      "passed": true
+    },
+    {
+      "check": "Proposed checkpoint prediction rows",
+      "observed": 3595,
+      "expected": 3595,
+      "passed": true
+    },
+    {
+      "check": "EfficientNet checkpoint prediction rows",
+      "observed": 3595,
+      "expected": 3595,
+      "passed": true
+    },
+    {
+      "check": "true-label agreement",
+      "observed": "all matched",
+      "expected": "all matched",
+      "passed": true
+    },
+    {
+      "check": "finite probabilities",
+      "observed": "all finite",
+      "expected": "all finite",
+      "passed": true
+    },
+    {
+      "check": "probability sums",
+      "observed": 1.6000000002680537e-07,
+      "expected": "maximum absolute error <= 2e-6",
+      "passed": true
+    }
+  ]
+}

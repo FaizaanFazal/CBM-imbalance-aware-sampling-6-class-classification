@@ -1,0 +1,13 @@
+metric,estimate_type,model_or_difference,estimate,CI_low,CI_high,contains_zero,interpretation
+SMC Precision,model,Proposed 3D CNN,0.884992784992785,0.8283406923886801,0.9327433365917236,False,Pre-specified SMC uncertainty
+SMC Precision,model,3D EfficientNet-B0,0.829935238541292,0.7446841085271318,0.8979054187192119,False,Pre-specified SMC uncertainty
+SMC Precision,paired difference,Proposed - EfficientNet,0.05505754645149297,-0.01429851242579723,0.12849098431853323,True,95% CI includes zero; no clear difference
+SMC Recall,model,Proposed 3D CNN,0.6814814814814814,0.5333333333333333,0.8160000000000001,False,Pre-specified SMC uncertainty
+SMC Recall,model,3D EfficientNet-B0,0.6814814814814815,0.525,0.8240000000000001,False,Pre-specified SMC uncertainty
+SMC Recall,paired difference,Proposed - EfficientNet,-1.1102230246251565e-16,-0.03000000000000003,0.029999999999999916,True,95% CI includes zero; no clear difference
+SMC F1,model,Proposed 3D CNN,0.756478584112666,0.6401759858576859,0.8449853068165567,False,Pre-specified SMC uncertainty
+SMC F1,model,3D EfficientNet-B0,0.7372215885412776,0.6123724606723041,0.8291229071922614,False,Pre-specified SMC uncertainty
+SMC F1,paired difference,Proposed - EfficientNet,0.01925699557138838,-0.01853026363372421,0.05793254865053128,True,95% CI includes zero; no clear difference
+SMC AUC,model,Proposed 3D CNN,0.8109291372297152,0.7139229870482987,0.8969244604316545,False,Pre-specified SMC uncertainty
+SMC AUC,model,3D EfficientNet-B0,0.9225701134660673,0.8614544713071609,0.97104403904622,False,Pre-specified SMC uncertainty
+SMC AUC,paired difference,Proposed - EfficientNet,-0.11164097623635216,-0.17452007086090823,-0.0574529243730497,False,95% CI supports EfficientNet advantage

@@ -1,0 +1,9 @@
+Context,Model,Accuracy,Macro Precision,Macro Recall,Macro F1,MCC,Macro AUC,SMC F1,Source
+Fold 1 Validation,Current hybrid (verified supplied result),0.9043,0.9041,0.8937,0.8979,,0.9723,0.9048,
+Fold 1 Validation,3D EfficientNet-B0,0.937391304347826,0.9230295096274476,0.9099305594653576,0.9158918580629072,0.920233685538548,0.9882914722602976,0.7906976744186046,
+Fold 1 Test,Current hybrid (verified supplied result),0.9179,0.9299,0.8891,0.9056,,0.9507,0.8511,
+Fold 1 Test,3D EfficientNet-B0,0.9318497913769124,0.9366644192650728,0.8954052172010503,0.9129417887581389,0.913005870724043,0.9794226846668286,0.8333333333333334,
+Fixed test five checkpoints,Current hybrid exact mean,0.901808066759388,0.9035121205596927,0.8690881076628975,0.8804043126469073,,0.9463019994773317,,/media/faizaan/4TB/1_DATA_PROJECTS/Projects/Alheimers 6 class classification CBM/Results/Proposed_Model/test_metrics_all_folds.csv
+Fixed test five checkpoints,Current hybrid exact sample SD,0.0451813370342231,0.0554802559285099,0.023025129378320432,0.03934585199210926,,0.005601764561234949,,/media/faizaan/4TB/1_DATA_PROJECTS/Projects/Alheimers 6 class classification CBM/Results/Proposed_Model/test_metrics_all_folds.csv
+Fixed test five checkpoints,3D EfficientNet-B0 mean,0.9229485396383866,0.9139640223335856,0.8798079678529545,0.8928945229181314,0.9017257573342663,0.9746214631450766,,/media/faizaan/4TB/1_DATA_PROJECTS/Projects/Alheimers 6 class classification CBM/Results/Baselines/3DEfficientNet_ImageID_5Fold/summary/EfficientNet_B0_5Fold_Test_Summary.csv
+Fixed test five checkpoints,3D EfficientNet-B0 sample SD,0.00946371395616356,0.02691423838110589,0.011254534314662442,0.014315274700466046,0.012048978345888637,0.0040403723050909685,,/media/faizaan/4TB/1_DATA_PROJECTS/Projects/Alheimers 6 class classification CBM/Results/Baselines/3DEfficientNet_ImageID_5Fold/summary/EfficientNet_B0_5Fold_Test_Summary.csv

@@ -1,0 +1,3 @@
+split,rows,unique_imageids,csv_sha256,exact_persisted_assignment
+train,2299,2299,f67f7575ed2d485c1fd8852105edb34a66acb96bf29edb24bb99da541b38e393,True
+validation,574,574,a8b12cadd249e30916208c98f4f0f6da93d586787ce589988f39671e5c8b5ba0,True

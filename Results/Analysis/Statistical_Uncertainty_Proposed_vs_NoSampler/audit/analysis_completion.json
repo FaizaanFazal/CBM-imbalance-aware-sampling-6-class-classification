@@ -1,0 +1,25 @@
+{
+  "valid": true,
+  "completed_utc": "2026-08-14T12:28:27.234233+00:00",
+  "required_outputs_present": 15,
+  "training_performed": false,
+  "inference_performed": false,
+  "existing_files_modified": false,
+  "output_sha256": {
+    "tables/checkpoint_metrics_Proposed_vs_NoSampler.csv": "72bb902e18c094fcbd568aa4ac2d51647b79e75002fa52e7c64a828cb7f8b251",
+    "tables/checkpoint_mean_SD_summary.csv": "a476f45d22942e4790a3ad44cbd4f892233970e59c165cb106d4396eb0371626",
+    "tables/manuscript_ablation_statistical_summary.csv": "5d9457a581caefde75f540f3bf63454c694b54814118c225cfaf59957a4e6dd3",
+    "bootstrap/proposed_metric_CI.csv": "d421f18a9bafac815ce3853f3f8c2724d65de7f4effb12503f4fe4937903e358",
+    "bootstrap/no_sampler_metric_CI.csv": "7afb5875e275f27a23c76b99ab9ecdee998f3c37985113b679dc0c28b8ad4a14",
+    "bootstrap/paired_difference_CI.csv": "2f9fae3871185c2c2e2e8df6a6f00efb04afc6a4288a7bcb95bea266d28ae093",
+    "bootstrap/classwise_F1_comparison.csv": "72990a0bf3ad7ed6b74df2b0620ecd163e204bfa07824c9ca3d2a6200ea03b1c",
+    "bootstrap/proposed_bootstrap_distributions.csv": "289f3767bcb9d68cf0988ffa06a04539f53e89d3de78ccba1e44c4ebce3749a3",
+    "bootstrap/no_sampler_bootstrap_distributions.csv": "067fe822491bceb8468a9308143ef75100918ab0be1a1c1dc019b1545dfb7bd4",
+    "bootstrap/paired_difference_bootstrap_distributions.csv": "c312d1a11811c8131e5e76ae2dd2533800693f1066812347a792933e6698e0b5",
+    "figures/paired_difference_CI_forest_plot.png": "c6858e8b9f6bd607a15f980859157c12bbab557dfbc8fd79d84be46ec47080f4",
+    "figures/paired_difference_CI_forest_plot.pdf": "a9a61759c33256962634570afa63fd509b74d13bfce9c3f768a528964415f6da",
+    "figures/SMC_F1_paired_bootstrap_distribution.png": "e9f8eed7da99ec3cb51904a83c3d514ce4a956d6e4879bbd4f2bc0bdabf4251b",
+    "audit/statistical_analysis_config.json": "ab75173c319af094f7511a17b2fed99f46db444fbea51f60a7edb33c12dc69ae",
+    "audit/input_prediction_integrity.json": "1fb926fa8a53d7c939767a9de5d52d4e3c62d2e40774ba3d0e3d0fa1c8e97871"
+  }
+}

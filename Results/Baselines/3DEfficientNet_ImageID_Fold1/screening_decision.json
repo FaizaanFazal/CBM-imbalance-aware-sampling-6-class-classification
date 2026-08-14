@@ -1,0 +1,8 @@
+{
+  "decision": "EFFICIENTNET_BELOW_RESNET",
+  "macro_f1": 0.9158918580629072,
+  "resnet_macro_f1": 0.940715355628564,
+  "macro_f1_difference": -0.024823497565656827,
+  "screening_only": true,
+  "additional_folds_launched": false
+}

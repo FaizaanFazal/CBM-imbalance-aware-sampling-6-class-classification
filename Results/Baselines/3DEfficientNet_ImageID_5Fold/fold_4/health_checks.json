@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "events": [
+    {
+      "epoch": 1,
+      "warning": "prediction concentration >90%"
+    },
+    {
+      "epoch": 3,
+      "warning": "prediction concentration >90%"
+    }
+  ],
+  "finite_inputs_logits_losses_gradients": true,
+  "technical_collapse": false,
+  "all_six_classes_at_checkpoint": true
+}

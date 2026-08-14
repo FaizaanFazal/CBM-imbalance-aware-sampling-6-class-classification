@@ -1,0 +1,31 @@
+{
+  "released": true,
+  "release_criterion": "driver <1024 MiB, torch allocated <128 MiB, torch reserved <256 MiB; no multi-GB model footprint",
+  "single_notebook_context_retained": true,
+  "samples": [
+    {
+      "stage": "after integrity-checked technical resume Fold 5",
+      "timestamp_utc": "2026-08-12T11:04:42.985778+00:00",
+      "index": 2,
+      "uuid": "GPU-db657392-ab6d-94b9-02fd-9db3a5e31c3d",
+      "memory_used_mib": 263,
+      "utilization_percent": 0,
+      "power_draw_w": 108.92,
+      "power_limit_w": 250.0,
+      "torch_allocated_mib": 0.0,
+      "torch_reserved_mib": 0.0
+    }
+  ],
+  "final": {
+    "stage": "after integrity-checked technical resume Fold 5",
+    "timestamp_utc": "2026-08-12T11:04:42.985778+00:00",
+    "index": 2,
+    "uuid": "GPU-db657392-ab6d-94b9-02fd-9db3a5e31c3d",
+    "memory_used_mib": 263,
+    "utilization_percent": 0,
+    "power_draw_w": 108.92,
+    "power_limit_w": 250.0,
+    "torch_allocated_mib": 0.0,
+    "torch_reserved_mib": 0.0
+  }
+}

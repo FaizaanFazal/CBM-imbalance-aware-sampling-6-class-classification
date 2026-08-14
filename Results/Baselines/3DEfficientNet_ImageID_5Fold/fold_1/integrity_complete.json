@@ -1,0 +1,7 @@
+{
+  "valid": true,
+  "fold": 1,
+  "checkpoint_reused_without_retraining": true,
+  "all_six_classes_predicted": true,
+  "test_inference_performed": false
+}

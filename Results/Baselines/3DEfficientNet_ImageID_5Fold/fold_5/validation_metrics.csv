@@ -1,0 +1,2 @@
+Fold,Accuracy,Macro Precision,Macro Recall,Macro F1,MCC,Macro AUC,best_epoch,train_macro_f1_at_best_epoch,train_validation_macro_f1_gap,predicted_classes,test_inference_performed
+5,0.9407665505226481,0.9178019314265198,0.9124817513786011,0.9131944006851692,0.9250758623607618,0.9636362753756643,40,0.995211570405261,0.08201716972009176,6,False

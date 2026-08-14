@@ -1,0 +1,43 @@
+{
+  "valid": true,
+  "fixed_test_size": 719,
+  "imageid_agreement": "PASS",
+  "ground_truth_agreement": "PASS",
+  "fold_consistency": "PASS",
+  "test_split_sha256": "c58d88969c828ac806a6559798841effce482fd6081b5fa56bce5c91c66fc268",
+  "class_mapping": {
+    "AD": 0,
+    "CN": 1,
+    "EMCI": 2,
+    "LMCI": 3,
+    "MCI": 4,
+    "SMC": 5
+  },
+  "manuscript_display_order": [
+    "CN",
+    "SMC",
+    "EMCI",
+    "MCI",
+    "LMCI",
+    "AD"
+  ],
+  "probability_input_sha256": {
+    "Full Proposed": {
+      "fold_1": "1e3f189c92c9b0d9cb71a063984299268a03765ef8c4bb9202ece7b5e5f8bf0b",
+      "fold_2": "36027ad2139263e3b8fdd12e41c33ca6c4ece59118290faf27822fa3abed6c48",
+      "fold_3": "630f50950bab06f18f685e75ee5cea4dabc510589d2dd7d50f6bd42f3f28c843",
+      "fold_4": "449382bf7d5081ddeec9dfb98667f935e87f8791042ffb40a64a4ad742d75571",
+      "fold_5": "942166379fe30225d706fd3f3ce9216b776f454cd833775d9cebd4dcb51123e5"
+    },
+    "No-Sampler": {
+      "fold_1": "7278dc2a66b5e69d1ab7c5a290787691f2ed4d5cdb9c4450c46d37aaa4e4dfe3",
+      "fold_2": "d27f2d5e5a3770ce994917f6fedac15053d0a3e4785d02012f27fe22aa01cbc9",
+      "fold_3": "8de6339a9fe8ed879773817cdd5a4d7815665a4fef6ed36a14000588f82b510f",
+      "fold_4": "60bc81b8912a14f9323e5bc7c954bd7c353f1025ebb82163d1b2bec9d6f2ebfa",
+      "fold_5": "97ceff2bb6c7989def26ddfb712f145be3c2dbca86e7a45e7caa43af9749a8e7"
+    }
+  },
+  "imageid_resolution": "Exact fixed test.csv row order; both finalized notebooks save probability rows from test DataLoaders with shuffle=False.",
+  "proposed_sampler_verified": true,
+  "no_sampler_verified": true
+}

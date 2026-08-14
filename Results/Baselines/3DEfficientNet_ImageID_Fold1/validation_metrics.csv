@@ -1,0 +1,2 @@
+best_epoch,accuracy,macro_precision,macro_recall,macro_f1,mcc,macro_auc,train_macro_f1_at_best_epoch,train_validation_macro_f1_gap,predicted_classes,test_inference_performed
+33,0.9373913043478261,0.9230295096274476,0.9099305594653576,0.9158918580629072,0.9202336855385481,0.9882914722602975,0.9987881981032666,0.0828963400403594,6,False

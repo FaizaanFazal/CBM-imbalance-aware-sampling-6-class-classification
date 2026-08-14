@@ -1,0 +1,13 @@
+{
+  "valid": true,
+  "one_notebook_only": true,
+  "fold1_reused": true,
+  "folds_2_to_5_trained_from_scratch": true,
+  "configuration_frozen_before_training": true,
+  "checkpoints_frozen_before_test": true,
+  "same_fixed_test_719_for_all_checkpoints": true,
+  "combined_test_prediction_rows": 3595,
+  "no_tuning": true,
+  "no_additional_models": true,
+  "manuscript_modified": false
+}
