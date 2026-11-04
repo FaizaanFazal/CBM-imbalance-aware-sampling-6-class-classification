@@ -1,6 +1,6 @@
 # Imbalance-Aware Six-Class Alzheimer's Disease Classification from 3D MRI
 
-doi: [will be added later]
+doi: [https://doi.org/10.1016/j.compbiomed.2026.111949](https://doi.org/10.1016/j.compbiomed.2026.111949)
 
 Code, analysis, and reproducibility materials accompanying a *Computers in Biology and Medicine* manuscript on imbalance-aware six-class classification of Alzheimer's disease stages from three-dimensional structural MRI.
 
